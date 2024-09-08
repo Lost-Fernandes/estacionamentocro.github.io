@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento com Cronômetro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Estacionamento Cronometrado</h1>
+
+    <form id="formulario">
+        <label for="modeloVeiculo">Modelo do Veículo:</label>
+        <input type="text" id="modeloVeiculo" required>
+        <label for="placaVeiculo">Placa do Veículo:</label>
+        <input type="text" id="placaVeiculo" required>
+        <button type="submit">Cadastrar Veículo</button>
+    </form>
+
+    <table id="resultados">
+        <tr>
+            <th>Modelo</th>
+            <th>Placa</th>
+            <th>Hora de Entrada</th>
+            <th>Tempo Estacionado</th>
+            <th>Valor Estacionamento</th>
+            <th>Ações</th>
+        </tr>
+    </table>
+<script src="index.js"></script>
+</body>
+</html>
